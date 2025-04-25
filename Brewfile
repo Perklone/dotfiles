@@ -19,6 +19,8 @@ brew "ghostty"                   # New terminal
 brew "docker"                    # Docker 
 brew "kubectl"                   # Kubernetes
 brew "jetbrains-toolbox"         # One stop-shop for Jetbrains product
+brew "neovim"                    # neovim
+brew "lazygit"                   # lazygit
 
 # Services
 brew "etcd", restart_service: true # Distributed key-value store
