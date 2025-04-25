@@ -1,27 +1,34 @@
-tap "coursier/formulas"
+# Taps
 tap "derailed/k9s"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "jaredwideman/virt-manager"
 tap "pomerium/tap"
-brew "bison"
-brew "bison@2.7"
-brew "chezmoi"
-brew "circleci"
-brew "etcd", restart_service: true
-brew "ghostscript"
-brew "pkg-config"
-brew "shared-mime-info"
-brew "imagemagick"
-brew "imagemagick@6"
-brew "libyaml"
-brew "zlib"
-brew "mysql", restart_service: true
-brew "openssl@1.1"
-brew "postgresql@14"
-brew "rbenv"
-brew "redis"
-brew "yq"
-brew "coursier/formulas/coursier"
-brew "derailed/k9s/k9s"
-brew "pomerium/tap/pomerium-cli"
+
+# CLI Tools
+brew "bison"                     # Parser generator
+brew "chezmoi"                   # Dotfiles manager
+brew "circleci"                  # CircleCI CLI
+brew "yq"                        # YAML processor
+brew "derailed/k9s/k9s"          # Kubernetes CLI
+brew "pomerium/tap/pomerium-cli" # Pomerium CLI
+
+# Development Tools
+brew "pkg-config"                # Package configuration
+brew "libyaml"                   # YAML library
+brew "zlib"                      # Compression library
+brew "openssl@1.1"               # OpenSSL library
+brew "rbenv"                     # Ruby version manager
+brew "ghostty"                   # New terminal
+brew "docker"                    # Docker 
+
+# Services
+brew "etcd", restart_service: true # Distributed key-value store
+brew "mysql", restart_service: true # MySQL database
+brew "postgresql@14"             # PostgreSQL database
+brew "redis"                     # Redis key-value store
+
+# Utilities
+brew "ghostscript"               # PDF and PostScript processor
+brew "shared-mime-info"          # MIME type database
+brew "imagemagick"               # Image processing
+
