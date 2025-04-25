@@ -1,4 +1,2 @@
 #!/bin/bash
 
-# symbolic link
-ln -sf "$PWD/.gitconfig" "$HOME/.gitconfig"
