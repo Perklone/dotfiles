@@ -11,9 +11,6 @@ brew "derailed/k9s/k9s"          # Kubernetes CLI
 brew "pomerium/tap/pomerium-cli" # Pomerium CLI
 
 # Development Tools
-brew "pkg-config"                # Package configuration
-brew "libyaml"                   # YAML library
-brew "zlib"                      # Compression library
 brew "rbenv"                     # Ruby version manager
 brew "ghostty"                   # New terminal
 brew "docker"                    # Docker 
