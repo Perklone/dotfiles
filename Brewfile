@@ -11,7 +11,6 @@ brew "derailed/k9s/k9s"          # Kubernetes CLI
 brew "pomerium/tap/pomerium-cli" # Pomerium CLI
 
 # Development Tools
-brew "git"                       # Repo version manager
 brew "rbenv"                     # Ruby version manager
 brew "ghostty"                   # New terminal
 brew "docker"                    # Docker 
@@ -35,6 +34,7 @@ brew "alt-tab"                   # alt-tab functionality
 brew "maccy"                     # Clipboard Manager
 brew "flameshot"                 # Screenshot tool
 brew "discord"                   # Yeah
+brew "zen"			 # Zen Browser
 
 # Work stuff
 brew "notion"
