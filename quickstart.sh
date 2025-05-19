@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status
+# Todo: Install Oh-My-Zsh, common theme, add ghostty config 
 set -e
 
 echo "Starting quick start setup..."
