@@ -14,9 +14,9 @@ else
 fi
 
 # Step 2: Run font installation script
-if [ -f ~/.local/share/chezmoi/install_fonts.sh ]; then
+if [ -f ~/.local/share/chezmoi/scripts/install_fonts.sh ]; then
   echo "Installing fonts..."
-  bash ~/.local/share/chezmoi/install_fonts.sh
+  bash ~/.local/share/chezmoi/scripts/install_fonts.sh
 else
   echo "Font installation script not found. Skipping fonts."
 fi
