@@ -1,6 +1,4 @@
 # Taps
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "pomerium/tap"
 
 # CLI Tools
@@ -12,10 +10,10 @@ brew "pomerium/tap/pomerium-cli" # Pomerium CLI
 
 # Development Tools
 brew "rbenv"                     # Ruby version manager
-brew "ghostty"                   # New terminal
+cask "ghostty"                   # New terminal
 brew "docker"                    # Docker 
 brew "kubectl"                   # Kubernetes
-brew "jetbrains-toolbox"         # One stop-shop for Jetbrains product
+cask "jetbrains-toolbox"         # One stop-shop for Jetbrains product
 brew "neovim"                    # neovim
 brew "lazygit"                   # lazygit
 
@@ -28,15 +26,15 @@ brew "redis"                     # Redis key-value store
 brew "ghostscript"               # PDF and PostScript processor
 brew "shared-mime-info"          # MIME type database
 brew "imagemagick"               # Image processing
-brew "betterdisplay"             # Display Manager
-brew "rectangle"                 # Tiling Window Manager
-brew "alt-tab"                   # alt-tab functionality
-brew "maccy"                     # Clipboard Manager
-brew "flameshot"                 # Screenshot tool
-brew "discord"                   # Yeah
-brew "zen"			 # Zen Browser
+cask "betterdisplay"             # Display Manager
+cask "rectangle"                 # Tiling Window Manager
+cask "alt-tab"                   # alt-tab functionality
+cask "maccy"                     # Clipboard Manager
+cask "flameshot"                 # Screenshot tool
+cask "discord"                   # Yeah
+cask "zen"			 # Zen Browser
 
 # Work stuff
-brew "notion"
-brew "slack"
-brew "pritunl"
+cask "notion"
+cask "slack"
+cask "pritunl"
