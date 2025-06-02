@@ -34,6 +34,7 @@ cask "maccy"                     # Clipboard Manager
 cask "flameshot"                 # Screenshot tool
 cask "discord"                   # Yeah
 cask "zen"			 # Zen Browser
+cask "hiddenbar"                 # Hide top bar
 
 # Work stuff
 cask "notion"
