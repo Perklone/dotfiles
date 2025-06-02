@@ -7,6 +7,7 @@ brew "circleci"                  # CircleCI CLI
 brew "yq"                        # YAML processor
 brew "derailed/k9s/k9s"          # Kubernetes CLI
 brew "pomerium/tap/pomerium-cli" # Pomerium CLI
+brew "wget"                      # Wget for picking up stuff
 
 # Development Tools
 brew "rbenv"                     # Ruby version manager
